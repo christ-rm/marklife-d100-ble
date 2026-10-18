@@ -5,7 +5,7 @@ from the phone app. It has no macOS/Linux Bluetooth driver (the "Mac driver" on 
 driver) and its classic Bluetooth serial port accepts no data. This repo documents how to talk to it over
 **BLE** from a computer, and includes a small script that prints a PDF or image label in about a second.
 
-> **Tested on a Marklife D100 only** (macOS, Python 3.14, `bleak`): the label prints completely and fast, every time, and the QR/barcodes scan.
+> **Tested on a Marklife D100 only** (macOS, Python 3.14, `bleak`): labels print completely and fast (about a second) and printed QR codes scan.
 > I do not know whether this applies to other Marklife models or firmware revisions. It may well work on similar JBIG-based models (the open-source
 > `thermal-label/marklife` project lists D100, X4, L100 and X8 with the same protocol family), but that is untested: try it with a spare label and report back.
 > Not affiliated with Marklife. Use at your own risk; each failed experiment wastes a label.
